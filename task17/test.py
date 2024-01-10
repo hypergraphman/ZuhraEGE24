@@ -1,0 +1,6 @@
+print(bin(100)[2:].rjust(8, '0'))
+print(f'{100:0>8b}')
+print(oct(100)[2:].rjust(8, '0'))
+print(f'{100:0>8o}')
+print(hex(100)[2:].rjust(8, '0'))
+print(f'{100:0>8x}')
